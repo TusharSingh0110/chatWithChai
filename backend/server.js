@@ -1,9 +1,9 @@
+import path from 'path';
 import dotenv from 'dotenv';
 dotenv.config();
 
 // console.log('JWT_SECRET:', process.env.JWT_SECRET);
 import express from 'express';
-import path from 'path';
 import cookieParser from 'cookie-parser';
 
 import authRoutes from './routes/auth.routes.js';
