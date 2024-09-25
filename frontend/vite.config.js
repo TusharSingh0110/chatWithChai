@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000, // Frontend will run on port 3000
     proxy: {
       "/api": {
-        target: "http://localhost:5000", // Proxy API requests to backend running on port 5000
+        target: "https://your-backend-service.onrender.com", // Replace with your actual backend URL
         changeOrigin: true,
         secure: false,
       },
